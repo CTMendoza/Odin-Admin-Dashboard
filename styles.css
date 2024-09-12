@@ -24,6 +24,11 @@ input {
     background-color: #cbccdf;
 }
 
+.greeting > span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
 
 .dash-container {
     display: grid;
@@ -41,6 +46,70 @@ input {
     margin-left: 57px;
 }
 
+.greeting-container {
+    display: flex;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    gap: 15px;
+    margin-left: 57px ;
+}
+
+.alerts-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.post-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left:30px
+}
+
+.buttons {
+    border-radius: 20px;
+    background-color: rgba(25, 146, 212, 255);
+    color: white;
+    border: none;
+    width: 100px;
+}
+
+.alerts-container > p {
+    font-weight: 500;
+}
+
+.greeting {
+    margin-top: 0;
+    font-weight: 500;
+}
+
+
+.greeting > span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+#greeting-avt {
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+
+}
+
+#avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
 .side-menu {
     color: white;
     background-color: rgba(25, 146, 212, 255);
@@ -53,7 +122,7 @@ input {
 
 .header {
     display: grid;
-    grid-template-columns: 2fr 1fr ;
+    grid-template-columns: 1.6fr 1fr ;
     grid-template-rows: 1fr 1fr ;
     grid-column: 2/3;
     grid-row: 1/2;
@@ -94,4 +163,9 @@ li {
 .icon{
     width: 35px;
     fill: white;
+}
+
+.bell {
+    width: 25px;
+    height: 25px;
 }
